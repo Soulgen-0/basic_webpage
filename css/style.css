@@ -1,8 +1,12 @@
 /* Heading, Paragraph and Anchor styles */
 h1, h2, h3, h4, h5, h6, p, a, li, form, ul {
     color:#009919;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: normal;
+}
+
+a {
+    color:#2cad41;
 }
 
 h2, h3, h4, h5, h6 {
@@ -10,9 +14,8 @@ h2, h3, h4, h5, h6 {
     margin-bottom: 0px;
     margin-top: 0px;
     padding-top: 10px;
-    border-bottom: 5px #009919;
+    border-bottom: 2px #009919;
     border-bottom-style: solid;
-    border-radius: 5px;
 }
 
 p {
@@ -22,8 +25,7 @@ p {
 section {
     width: 60%;
 
-    border-radius: 15px;
-    border: 4px solid #009919;
+    border: 2px solid #009919;
     margin-bottom: 25px;
 
     padding-left: 10px;
