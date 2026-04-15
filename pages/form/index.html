@@ -6,15 +6,20 @@
     <title>Basic Webpage</title>
 </head>
 <body>
+    <link rel="stylesheet"  href="/css/style.css">
     <header>
-        <h1>Basic Webpage</h1>
-        <nav>
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/pages/about/">About</a></li>
-                <li><a href="/pages/form/">Form</a></li>
-            </ul>
-        </nav>
+        <ul id="header-list">
+            <li><h1>Basic Webpage</h1></li>
+            <li>
+                <nav>
+                    <ul id="nav-list">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/pages/about/">About</a></li>
+                        <li><a href="/pages/form/">Form</a></li>
+                    </ul>
+                </nav>
+            </li>
+        </ul>
     </header>
     <section>
         <h2>Form Page</h2>
@@ -22,8 +27,17 @@
         <form id="form">
             <label for="name_field">Name:</label>
             <input type="text" name="name_field" id="name_field">
+            <label for="fav_lang">Favorite Programming Language: </label>
+            <select id="fav_lang" name="fav_lang">
+                <option value="python">Python</option>
+                <option value="javascript">JavaScript</option>
+                <option value="luau">Luau</option>
+                <option value="csharp">C#</C></option>
+            </select>
+            <input type="submit" value="Submit!!!">
         </form>
-        <p id="form-result">You submitted: Nothing</p>
+        <p id="form-result">You name is: Nothing</p>
+        <p id="fav-lang-result">Your favorite language is: None</p>
     </section>
     <footer>
         <p>&copy; 2026 Soulgen</p>
