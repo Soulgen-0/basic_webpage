@@ -57,6 +57,10 @@ main {
     justify-content: center;
 }
 
+div {
+    display: inline-block;
+}
+
 /* Document body style */
 body {
     background-color:rgb(0, 7, 0);
